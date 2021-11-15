@@ -193,7 +193,7 @@ crt = ["awscrt (==0.11.11)"]
 
 [[package]]
 name = "braintree"
-version = "4.9.0"
+version = "4.13.0"
 description = "Braintree Python Library"
 category = "main"
 optional = false
@@ -2582,8 +2582,8 @@ multidict = ">=4.0"
 
 [metadata]
 lock-version = "1.1"
-  python-versions = "~3.9"
-content-hash = "536734673a8e18cc80b0f53ed46b559e9d697aa6843560974acd2d3a950f438e"
+python-versions = "~3.9"
+content-hash = "171cb0c148213cfdda07e19eb89bef0019385463b0166ef4c1db71eae9f8f851"
 
 [metadata.files]
 adyen = [
@@ -2654,8 +2654,8 @@ botocore = [
     {file = "botocore-1.20.70.tar.gz", hash = "sha256:9bc8bd5f601d35658b2aaa78ebeef154fd092e64b37059e8eeef51648a3936c8"},
 ]
 braintree = [
-    {file = "braintree-4.9.0-py2.py3-none-any.whl", hash = "sha256:a4e9b8f9722a82989d3d8eeefee54ab5e87e1638cf37621caaeb8ec1230cd31f"},
-    {file = "braintree-4.9.0.tar.gz", hash = "sha256:55a3abc47c08c1efae8e1fc9a6904694029d2a425b8c9c9eb11c2bc2e51ea792"},
+    {file = "braintree-4.13.0-py2.py3-none-any.whl", hash = "sha256:8a48e9a936dfe34c5bd44c681b989b4864c85c32226b5c73e18ecf816a6e0321"},
+    {file = "braintree-4.13.0.tar.gz", hash = "sha256:de8270c24c4557bcb76d2079bb4cabf380ce467d17c65f10ee5159da7ff8496a"},
 ]
 cachetools = [
     {file = "cachetools-4.2.2-py3-none-any.whl", hash = "sha256:2cc0b89715337ab6dbba85b5b50effe2b0c74e035d83ee8ed637cf52f12ae001"},
@@ -3207,6 +3207,8 @@ lxml = [
     {file = "lxml-4.6.3-cp27-cp27m-win_amd64.whl", hash = "sha256:8157dadbb09a34a6bd95a50690595e1fa0af1a99445e2744110e3dca7831c4ee"},
     {file = "lxml-4.6.3-cp27-cp27mu-manylinux1_i686.whl", hash = "sha256:7728e05c35412ba36d3e9795ae8995e3c86958179c9770e65558ec3fdfd3724f"},
     {file = "lxml-4.6.3-cp27-cp27mu-manylinux1_x86_64.whl", hash = "sha256:4bff24dfeea62f2e56f5bab929b4428ae6caba2d1eea0c2d6eb618e30a71e6d4"},
+    {file = "lxml-4.6.3-cp310-cp310-manylinux_2_12_i686.manylinux2010_i686.manylinux_2_24_i686.whl", hash = "sha256:64812391546a18896adaa86c77c59a4998f33c24788cadc35789e55b727a37f4"},
+    {file = "lxml-4.6.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl", hash = "sha256:c1a40c06fd5ba37ad39caa0b3144eb3772e813b5fb5b084198a985431c2f1e8d"},
     {file = "lxml-4.6.3-cp35-cp35m-manylinux1_i686.whl", hash = "sha256:74f7d8d439b18fa4c385f3f5dfd11144bb87c1da034a466c5b5577d23a1d9b51"},
     {file = "lxml-4.6.3-cp35-cp35m-manylinux1_x86_64.whl", hash = "sha256:f90ba11136bfdd25cae3951af8da2e95121c9b9b93727b1b896e3fa105b2f586"},
     {file = "lxml-4.6.3-cp35-cp35m-manylinux2010_i686.whl", hash = "sha256:4c61b3a0db43a1607d6264166b230438f85bfed02e8cff20c22e564d0faff354"},
